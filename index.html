@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-
-<!-- Meta Pixel Code (UNCHANGED) -->
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -12,168 +10,182 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1571695350600683');
+fbq('init', '1368048148511988');
 fbq('track', 'PageView');
 </script>
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1571695350600683&ev=PageView&noscript=1"/>
-</noscript>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1368048148511988&ev=PageView&noscript=1"
+/></noscript>
 <!-- End Meta Pixel Code -->
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Free Telegram Channel</title>
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      overflow-x: hidden;
+    }
 
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Join Telegram Channel</title>
+    .video-bg {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+    }
 
-<script src="https://cdn.tailwindcss.com"></script>
+    .video-bg video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.12;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }.card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: white;
+  padding: 2rem;
+  max-width: 350px;
+  text-align: center;
+}
 
-<style>
-  body {
-    font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    overflow: hidden;
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "\2714";
+  color: #00ff95;
+  position: absolute;
+  left: 0;
+}
+
+.cta {
+  display: inline-block;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta:hover {
+  background: linear-gradient(to right, #0575e6, #00f260);
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  color: #ccc;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 90%;
+    padding: 1.5rem;
   }
+}
 
-  /* VIDEO BACKGROUND */
-  .video-bg {
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
-  }
-
-  /* OVERLAY */
-  .overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(2,6,23,0.75);
-    z-index: -1;
-  }
-
-  .glass-card {
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(18px);
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 24px;
-    max-width: 420px;
-    width: 100%;
-    padding: 2rem 1.8rem;
-    text-align: center;
-    box-shadow: 0 25px 60px rgba(0,0,0,0.4);
-  }
-
-  .profile-img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: 4px solid rgba(255,255,255,0.6);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-    margin: auto;
-  }
-
-  .btn-telegram {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 14px;
-    border-radius: 16px;
-    font-weight: 700;
-    font-size: 1.05rem;
-    color: #fff;
-    background: linear-gradient(135deg, #0088cc, #22d3ee);
-    transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(0,136,204,0.5);
-  }
-
-  .btn-telegram:hover {
-    transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 18px 45px rgba(0,136,204,0.7);
-  }
-
-  .badge {
-    background: linear-gradient(135deg, #dc2626, #f97316);
-    color: white;
-    padding: 6px 14px;
-    border-radius: 999px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    display: inline-block;
-  }
-
-  .feature {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    font-size: 0.95rem;
-    color: #e5e7eb;
-  }
-</style>
-
+  </style>
 </head>
 <body>
-
-<!-- MIXKIT VIDEO BACKGROUND -->
-<video class="video-bg" autoplay muted loop playsinline>
-  <source src="https://assets.mixkit.co/videos/9607/9607-720.mp4" type="video/mp4">
-</video>
-
-<div class="overlay"></div>
-
-<div class="glass-card">
-
-  <img
-    src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/08/pankaj-image.jpg"
-    alt="Profile"
-    class="profile-img mb-4"
-  />
-
-  <h1 class="text-xl font-extrabold text-white leading-snug">
-    PANKAJ BHARDWAJ OFFICIAL
-  </h1>
-
-  <p class="text-sm text-cyan-300 font-semibold mb-3">
-    (SEBI REGISTER) 💸🏆
-  </p>
-
-  <span class="badge mb-5 inline-block">
-    📊 17 Years Trading Experience
-  </span>
-<h1>👇👇👇</h1>
-  <a href="https://t.me/+rrwoQ7d1JyVhYzRl" target="_blank" class="btn-telegram my-6">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-      <path d="M16 8a8 8 0 1 1-16 0 8 8 0 0 1 16 0zM6.79 10.89l-.27 3.67c.39 0 .56-.17.77-.38l1.85-1.76 3.84 2.8c.7.39 1.19.19 1.36-.65l2.47-11.59c.22-.98-.35-1.37-1.05-1.14L1.13 6.24c-.95.37-.93.9-.17 1.14l3.57 1.11 8.3-5.23c.39-.26.74-.12.45.14L6.79 10.89z"/>
-    </svg>
-    JOIN TELEGRAM CHANNEL
-  </a>
- <h2 class="text-lg font-bold text-white mb-1">
-    क्या आप ट्रेडिंग से पैसे कमाना चाहते हैं?
-  </h2>
-  <p class="text-red-400 font-semibold">
-    अगर हां, तो ऊपर दिए गए Telegram बटन पर क्लिक करें 🚀
-  </p>
-  <p class="text-yellow-400 font-bold mb-4">
-    💎 DAILY PROFIT GUARANTEE 💎
-  </p>
-
-  <div class="space-y-3 text-left mb-6">
-    <div class="feature">📊 <span><b>Live Daily Trades</b> directly from my portfolio</span></div>
-    <div class="feature">🔥 <span><b>Exclusive Signals</b> used by professionals</span></div>
-    <div class="feature">💯 <span><b>High Accuracy</b> with proven consistency</span></div>
-    <div class="feature">⚡ <span><b>Instant Updates</b> with real-time alerts</span></div>
-  </div>
-
+    <div class="video-bg">
+  <video autoplay muted loop playsinline>
+    <source src="https://assets.mixkit.co/videos/9607/9607-720.mp4">
+  </video>
 </div>
 
+  <div class="card">
+    <img src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/07/badshah-ff.jpg" alt="Mentor Image">
+    <h2>Get Daily Stock Market Insights — Free on Telegram</h2>
+    <p>Get market updates, potential trades, and expert analysis straight to your phone — absolutely free.</p>
+    <ul>
+      <li>Daily Nifty & BankNifty Levels</li>
+      <li>No Paid Tips – Purely Educational</li>
+      <li>5+ Years of Market Experience</li>
+      <li>50000+ Subscribers Trust Us Already</li>
+    </ul>
+    <a class="cta" href="https://t.me/+Jpg8wBn2TgI0YWVl" target="_blank">JOIN FREE TELEGRAM</a>
+    <p class="disclaimer">
+      Disclaimer: This channel is for educational and informational purposes only. We do not provide investment advice or guaranteed returns. Trading in the stock market involves risk. Please consult your financial advisor before making any investment decisions.
+    </p>
+  </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
